@@ -87,9 +87,9 @@ experience:
         
         A number of projects to meet Dodd-Frank requirements. Wide-ranging changes to reference data, client account setup and message formats touching many applications, to meet externally imposed deadlines without impacting trading. Built a notification service for pre-trade notification of material economic terms.
         
-        Improved the FX Options e-commerce / FIX infrastructure serving various inter-dealer brokers. Brought new brokers into production, including the Digital Vega system I’d helped to develop externally.
+        Improved the FX Options e-commerce / FIX infrastructure serving various inter-dealer brokers. Brought new brokers into production, including the Digital Vega system I'd helped to develop externally.
         
-        Technologies included Java, Spring, Apache CXF, IBM MQ, SOAP, JAXB, JMX, QuickFixJ, Hibernate, Ehcache, Sybase, proprietary services for pub-sub and reference data publication, Perforce, JUnit, Jenkins, TeamCity, Easymock, Mockito, Kerberos, Ant, Ivy, Apache Commons, Guava, Python, Red Hat Enterprise Linux, Ksh and Zsh.
+        Technologies included Java, Spring, Apache CXF, IBM MQ, SOAP, JAXB, JMX, QuickFixJ, Hibernate, Ehcache, Sybase, proprietary services for pub-sub and reference data publication, Perforce, JUnit, Jenkins, TeamCity, EasyMock, Mockito, Kerberos, Ant, Ivy, Apache Commons, Guava, Python, Red Hat Enterprise Linux, ksh and Zsh.
     - company: Digital Vega FX Limited
       link:
       tags: 
@@ -175,7 +175,7 @@ education:
       major: Studying for a PGCE, as a secondary school science teacher.
       degree:
       description: 
-    - institution: St Hugh’s College, Oxford University
+    - institution: St Hugh's College, Oxford University
       link:
       date: 1991 - 1994
       major: Physics
