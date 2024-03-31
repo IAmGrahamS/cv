@@ -16,26 +16,27 @@ profile:
   order: 1
   title: Profile
   description: |
-  + Senior Java developer with 25 years of experience in investment banks, primarily in derivatives.
-  + Goldman Sachs, Executive Director. Derivatives trade processing and regulatory reporting.
-  + HSBC. Strategic greenfield project replacing primary FX and FX Options risk systems.
-  + Morgan Stanley. FX cash booking stack. Electronic trading of FX Options. Single Dealer Platform. FIX.
-  + Barclays Capital. Built a pricing tool which evolved into an industry-leading, multi-award-winning, single dealer platform.
-  + St Hugh's College, Oxford University. Physics.
-  + Strong business knowledge.
-  + Built relationships with leaders, front office, strats, operations and support teams.
-  + Highly complex, scalable, low-latency, low-touch, multi-threaded, distributed environments, trading large volumes globally 24 * 5.
-  + Globally-distributed, agile teams. Continuous delivery. DevOps. Production support.
-  + Detail-oriented and enjoys diving into large, complex codebases, with similarly complex business requirements.
-  + Testing and performance tuning.
-  + Recruited and mentored team members.
-  + Managed and led projects.
-  + Enjoys working as a part of highly performing teams.
+    + Senior Java developer with 25 years of experience in investment banks, primarily in derivatives.
+    + Goldman Sachs, Executive Director. Derivatives trade processing and regulatory reporting.
+    + HSBC. Strategic greenfield project replacing primary FX and FX Options risk systems.
+    + Morgan Stanley. FX cash booking stack. Electronic trading of FX Options. Single Dealer Platform. FIX.
+    + Barclays Capital. Built a pricing tool which evolved into an industry-leading, multi-award-winning, single dealer platform.
+    + St Hugh's College, Oxford University. Physics.
+    + Strong business knowledge.
+    + Built relationships with leaders, front office, strats, operations and support teams.
+    + Highly complex, scalable, low-latency, low-touch, multi-threaded, distributed environments, trading large volumes globally 24 * 5.
+    + Globally-distributed, agile teams. Continuous delivery. DevOps. Production support.
+    + Detail-oriented and enjoys diving into large, complex codebases, with similarly complex business requirements.
+    + Testing and performance tuning.
+    + Recruited and mentored team members.
+    + Managed and led projects.
+    + Enjoys working as a part of highly performing teams.
+
 experience:
   show: true
   order: 2
   title: Experience
- 
+  description: |
   items:
     - company: Goldman Sachs
       link: '#'
@@ -45,6 +46,7 @@ experience:
       location: London
       description: |
         Senior Java developer in Derivatives Trade Processing across a wide range of products (IRP, Equities, Commodities, FX, Repo), mostly working on regulatory reporting. 
+     
         Projects included:
         + Liquidity Trade Processing, 2022. New system for margin users to book trades and perform trade events on repos and collateral pledges. Java and Spring microservices transform and enrich JSON messages over Kafka from a web UI. Events are processed by an enhanced version of our repo stack, before posting trade and event representations to our strategic data repository, a document-oriented datastore with a domain-specific modelling language.
         + SEC security-based swap transactions regulatory reporting, 2021. New regulations for equity derivatives. Extensively analysed and documented complex legacy code for CFTC reporting. Partnered with Operations and Legal, to design, validate and implement the regulations in a decision rules engine. Modelled and correctly hydrated each class of trades to support this. Migrated flow from older trade factories to our derivatives processing platform.
@@ -61,8 +63,9 @@ experience:
       location: London
       description: |
         Senior Java developer on a large, strategic project to replace existing primary FX and FX Options risk management systems with a new greenfield development. An orchestrator triggers workflows on a large compute grid, driven by an immutable, time-based store for trades and market data. The grid computes risks for EOD batches and real-time intraday trades and sends to queues. The queues feed OLAP cubes aggregating terabytes of results for risk reporting, interrogated by an HTML5 trader UI.
+        
         Technologies included Java, Spring, ActivePivot, MDX, Apache ActiveMQ, JMS, Coherence, DataSynapse GridServer, Puppet, Stash, Git, Splunk, Grafana, TeamCity,  JUnit, Cucumber, Arquilian, Maven, Gradle, Linux, and Windows.
-   - company: Morgan Stanley FX IT
+    - company: Morgan Stanley FX IT
       link:
       tags: 
       date: 2012.02 - 2014.10
@@ -70,6 +73,7 @@ experience:
       location: London
       description: |
         Lead developer on the spine of the FX cash Java booking stack, which enriches, transforms and routes messages to internal and external recipients for STP and other purposes. 
+        
         As part of a project to move our NY infrastructure to a single consolidated data centre and to improve latency and throughput, re-wrote and upgraded the core legacy applications to the latest version of our technology stack. Added FIX support for our external clients. Developed an autowashing process to automatically generate and manage the lifecycle of risk and wash trades for different jurisdictions.
 
 
