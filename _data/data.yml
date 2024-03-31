@@ -6,9 +6,12 @@ basic:
     path: /assets/images/profile.jpeg # avatar file path
 
 contact:
+  linkedin: https://www.linkedin.com/in/grahamstock
+  github:  https://github.com/IAmGrahamS
   location: London # location
-  github:                  # username          | https://github.com/IAmGrahamS
-  linkedin:                # username          | https://www.linkedin.com/in/grahamstock
+  # website: https://www.linkedin.com/in/grahamstock     # site URL without schema, like example.com, will automatically prepand "https://"
+  
+  
 
 
 profile:
@@ -127,7 +130,7 @@ experience:
       role: Technical Lead and Developer
       location: London
       description: |
-        2008\. Technical Lead on “Web Pricer 2” project, a major upgrade of the main pricing tool for all users, and the team’s major delivery for the year.  Added RFQ dealing for the full product range of vanilla and exotic options, a significantly enhanced GUI, local stochastic vol pricing for exotics and improved spread management, solving, structures, credit checking, blotters and termsheets.
+        2008\. Technical Lead on “Web Pricer 2” project, a major upgrade of the main pricing tool for all users, and the team's major delivery for the year.  Added RFQ dealing for the full product range of vanilla and exotic options, a significantly enhanced GUI, local stochastic vol pricing for exotics, improved spread management, solving, structures, credit checking, blotters and termsheets.
 
         2007\. Technical Lead on “Dual Currency Investments” project. Allowed Private Banks to sell Dual Currency Investments, with customised termsheets to white-label the product. Pricing, Price Spread Tiering, RFQ, Rates, and STP involved a combination of the FX, FX Options and Money Markets infrastructure.
 
