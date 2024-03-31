@@ -6,13 +6,10 @@ basic:
     path: /assets/images/profile.jpeg # avatar file path
 
 contact:
-  linkedin: https://www.linkedin.com/in/grahamstock
-  github:  https://github.com/IAmGrahamS
+  linkedin: grahamstock
+  github:  IAmGrahamS
   location: London # location
-  # website: https://www.linkedin.com/in/grahamstock     # site URL without schema, like example.com, will automatically prepand "https://"
-  
-  
-
+  website: iamgrahams.github.io/cv
 
 profile:
   show: true
