@@ -39,7 +39,7 @@ experience:
   description: |
   items:
     - company: Goldman Sachs
-      link: '#'
+      link:
       tags: 
       date: 2017.11 - 2023.03
       role: Executive Director, Senior Java Developer, Contractor
@@ -50,8 +50,9 @@ experience:
         Projects included:
         + Liquidity Trade Processing, 2022. New system for margin users to book trades and perform trade events on repos and collateral pledges. Java and Spring microservices transform and enrich JSON messages over Kafka from a web UI. Events are processed by an enhanced version of our repo stack, before posting trade and event representations to our strategic data repository, a document-oriented datastore with a domain-specific modelling language.
         + SEC security-based swap transactions regulatory reporting, 2021. New regulations for equity derivatives. Extensively analysed and documented complex legacy code for CFTC reporting. Partnered with Operations and Legal, to design, validate and implement the regulations in a decision rules engine. Modelled and correctly hydrated each class of trades to support this. Migrated flow from older trade factories to our derivatives processing platform.
-        + Regulatory Reporting, 2020. Projects to represent our derivatives fully in strategic platforms to support MAS reporting and future North American re-platforming.Brexit 2019. Large project to rework all our EMIR reporting so it would report correctly to either ESMA or the FCA from the Brexit date.
-        + SRC 2018 - External commitments were made to regulators to fix a number of aged, highly complex edge cases and back-report any historic changes to reporting.
+        + Regulatory Reporting, 2020. Projects to represent our derivatives fully in strategic platforms to support MAS reporting and future North American re-platforming.
+        + Brexit, 2019\. Large project to rework all our EMIR reporting so it would report correctly to either ESMA or the FCA from the Brexit date.
+        + SRC, 2018\. External commitments were made to regulators to fix a number of aged, highly complex edge cases and back-report any historic changes to reporting.
         + Improved FINRA ACT reporting for Equity derivatives, working with Strats to calculate the correct prices for ASRs and related products.
         + Enabled reporting of a new class of Python-priced products for exotic equity swaptions and covariance swaps.
         + Responsible for Business Continuity Planning co-ordination and testing.
@@ -73,7 +74,83 @@ experience:
       location: London
       description: |
         Lead developer on the spine of the FX cash Java booking stack, which enriches, transforms and routes messages to internal and external recipients for STP and other purposes. 
-        
+
         As part of a project to move our NY infrastructure to a single consolidated data centre and to improve latency and throughput, re-wrote and upgraded the core legacy applications to the latest version of our technology stack. Added FIX support for our external clients. Developed an autowashing process to automatically generate and manage the lifecycle of risk and wash trades for different jurisdictions.
+        
+        A number of projects to meet Dodd-Frank requirements. Wide-ranging changes to reference data, client account setup and message formats touching many applications, to meet externally imposed deadlines without impacting trading. Built a notification service for pre-trade notification of material economic terms.
+        
+        Improved the FX Options e-commerce / FIX infrastructure serving various inter-dealer brokers. Brought new brokers into production, including the Digital Vega system I’d helped to develop externally.
+        
+        Technologies included Java, Spring, Apache CXF, IBM MQ, SOAP, JAXB, JMX, QuickFixJ, Hibernate, Ehcache, Sybase, proprietary services for pub-sub and reference data publication, Perforce, JUnit, Jenkins, TeamCity, Easymock, Mockito, Kerberos, Ant, Ivy, Apache Commons, Guava, Python, Red Hat Enterprise Linux, Ksh and Zsh.
+    - company: Digital Vega FX Limited
+      link:
+      tags: 
+      date: 2011.10 - 2012.02
+      role: Java contractor
+      location: London
+      description: |
+        A small start-up developing an FX Options platform to offer pricing and execution at the best price offered by a number of top-tier banks. Developed the FIX interface to the trading platform we developed at Morgan Stanley.
+        
+        Technologies included Java, Spring, MySQL, GWT, QuickFixJ, SMC, JBoss, Tomcat and Hibernate.
+    - company: RBS FX e-commerce IT
+      link:
+      tags: 
+      date: 2011.04 - 2011.08
+      role: Java contractor
+      location: London
+      description: |
+        Low latency FX trading systems, primarily introducing a new rules engine to control the tradability of products and customers according to a large set of business rules.
+        
+        Technologies included Java, Coherence, ICE, Sybase and Maven.
+    - company: Morgan Stanley FX Options IT
+      link:
+      tags: 
+      date: 2009.06 - 2011.03
+      role: Java contractor
+      location: London
+      description: |
+        Large project to enable streaming FX Options, dealer intervention and dealing via Morgan Stanley's e-commerce platform.  In addition, migrated the options traders to an upgraded system for marking volatilities and managing rates, and connected with brokers and other market participants for exchanging prices and trades.
 
+        Captured the calibration points entered by traders and then recalculated and republished dependent surfaces which would drive the price streamers for e-commerce and publish to brokers over FIX. Developed a system to aggregate prices from many brokers, and show a consolidated book to our traders alongside their own marks.
+    - company: Barclays Capital
+      link:
+      tags: 
+      date: 2000.07 - 2009.04
+      role: Technical Lead and Developer
+      location: London
+      description: |
+        2008\. Technical Lead on “Web Pricer 2” project, a major upgrade of the main pricing tool for all users, and the team’s major delivery for the year.  Added RFQ dealing for the full product range of vanilla and exotic options, a significantly enhanced GUI, local stochastic vol pricing for exotics and improved spread management, solving, structures, credit checking, blotters and termsheets.
 
+        2007\. Technical Lead on “Dual Currency Investments” project. Allowed Private Banks to sell Dual Currency Investments, with customised termsheets to white-label the product. Pricing, Price Spread Tiering, RFQ, Rates, and STP involved a combination of the FX, FX Options and Money Markets infrastructure.
+
+        2005 - 2006. Senior Developer on BARX FX Options. Introduced streaming pricing, which I was largely responsible for (including implementing the core pricing code), along with one other developer. A senior options trader described this as the most profitable single IT delivery in his time, and it received a special mention in Profit & Loss magazine.
+
+        2004\. C++ developer on the back-end options pricing server. Improved the market data interface and incorporated new models.
+
+        2000 - 2003. Produced an option pricing tool for Barclays Corporate Banking. Built a spreadsheet-like interface offering vanilla and exotic options pricing in a Java front-end with a C++ pricing server. It became the main options pricing tool for Barclays Capital. Added STP into Murex, and enabled external internet dealing for Barclays customers. Responsible for Credit Risk calculations as part of migration from the in-house risk system to Murex.
+    - company: NatWest Markets
+      link:
+      tags: 
+      date: 1998.01 - 2000.06
+      role: Developer, Currency Options Research
+      location: London
+      description: |
+        Worked in a team of quants and developers responsible for NatWest’s leading-edge FX Options pricing, risk-management and research application.
+        
+        Lead developer on the first internet FX Options Dealing system.
+        
+        Made our extensive interactive charting, historic data, and analysis available to our clients over the internet.
+    - company: MMT Computing / NatWest Group
+      link:
+      tags: 
+      date: 1998.04 - 1997.12
+      role: Developer
+      location: London
+      description:
+    - company: RDA Consulting
+      link:
+      tags: 
+      date: 1995.05 - 1995.12
+      role: Developer
+      location: Bradford
+      description:
