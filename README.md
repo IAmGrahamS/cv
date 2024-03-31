@@ -1,7 +1,7 @@
 <h1 align="center">Graham Stock's CV</h1>
 
 ## Introduction
-Hi, I'm Graham Stock, and I'm looking for Java roles in London, or remote. Please get in touch on [LinkedIn](https://iamgrahams.github.io/cv).
+Hi, I'm Graham Stock, and I'm looking for Java roles in London, or remote. Please get in touch on [LinkedIn](https://linkedin.com/in/grahamstock).
 
 ## CV
 
