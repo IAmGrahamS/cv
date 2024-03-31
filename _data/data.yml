@@ -41,9 +41,9 @@ experience:
     - company: Goldman Sachs
       link:
       tags: 
-      date: 2017.11 - 2023.03
+      date: November 2017 - March 2023
       role: Executive Director (I joined as a contractor)
-      location: London
+      location:
       description: |
         Senior Java developer in Derivatives Trade Processing across a wide range of products (IRP, Equities, Commodities, FX, Repo), mostly working on regulatory reporting. 
      
@@ -67,9 +67,9 @@ experience:
     - company: HSBC Global Banking and Markets
       link:
       tags: 
-      date: 2014.10 - 2017.10
+      date: October 2014 - October 2017
       role: Java contractor
-      location: London
+      location:
       description: |
         Senior Java developer on a large, strategic project to replace existing primary FX and FX Options risk management systems with a new greenfield development. An orchestrator triggers workflows on a large compute grid, driven by an immutable, time-based store for trades and market data. The grid computes risks for EOD batches and real-time intraday trades and sends to queues. The queues feed OLAP cubes aggregating terabytes of results for risk reporting, interrogated by an HTML5 trader UI.
         
@@ -77,9 +77,9 @@ experience:
     - company: Morgan Stanley FX IT
       link:
       tags: 
-      date: 2012.02 - 2014.10
+      date: February 2012 - October 2014
       role: Java contractor
-      location: London
+      location:
       description: |
         Lead developer on the spine of the FX cash Java booking stack, which enriches, transforms and routes messages to internal and external recipients for STP and other purposes. 
 
@@ -93,9 +93,9 @@ experience:
     - company: Digital Vega FX Limited
       link:
       tags: 
-      date: 2011.10 - 2012.02
+      date: October 2011 - February 2012
       role: Java contractor
-      location: London
+      location:
       description: |
         A small start-up developing an FX Options platform to offer pricing and execution at the best price offered by a number of top-tier banks. Developed the FIX interface to the trading platform we developed at Morgan Stanley.
         
@@ -103,9 +103,9 @@ experience:
     - company: RBS FX e-commerce IT
       link:
       tags: 
-      date: 2011.04 - 2011.08
+      date: April 2011 - August 2011
       role: Java contractor
-      location: London
+      location:
       description: |
         Low latency FX trading systems, primarily introducing a new rules engine to control the tradability of products and customers according to a large set of business rules.
         
@@ -113,9 +113,9 @@ experience:
     - company: Morgan Stanley FX Options IT
       link:
       tags: 
-      date: 2009.06 - 2011.03
+      date: June 2009 - March 2011
       role: Java contractor
-      location: London
+      location:
       description: |
         Large project to enable streaming FX Options, dealer intervention and dealing via Morgan Stanley's e-commerce platform.  In addition, migrated the options traders to an upgraded system for marking volatilities and managing rates, and connected with brokers and other market participants for exchanging prices and trades.
 
@@ -123,9 +123,9 @@ experience:
     - company: Barclays Capital
       link:
       tags: 
-      date: 2000.07 - 2009.04
+      date: July 2000 - April 2009
       role: Technical Lead and Developer
-      location: London
+      location:
       description: |
         2008\. Technical Lead on “Web Pricer 2” project, a major upgrade of the main pricing tool for all users, and the team's major delivery for the year.  Added RFQ dealing for the full product range of vanilla and exotic options, a significantly enhanced GUI, local stochastic vol pricing for exotics, improved spread management, solving, structures, credit checking, blotters and termsheets.
 
@@ -139,11 +139,11 @@ experience:
     - company: NatWest Markets
       link:
       tags: 
-      date: 1998.01 - 2000.06
+      date: January 1998 - June 2000
       role: Developer, Currency Options Research
-      location: London
+      location:
       description: |
-        Worked in a team of quants and developers responsible for NatWest’s leading-edge FX Options pricing, risk-management and research application.
+        Worked in a team of quants and developers responsible for NatWest's leading-edge FX Options pricing, risk-management and research application.
         
         Lead developer on the first internet FX Options Dealing system.
         
@@ -151,16 +151,16 @@ experience:
     - company: MMT Computing / NatWest Group
       link:
       tags: 
-      date: 1998.04 - 1997.12
+      date: April 1996 - December 1997
       role: Developer
-      location: London
+      location:
       description:
     - company: RDA Consulting
       link:
       tags: 
-      date: 1995.05 - 1995.12
+      date: May 1995 - December 1995
       role: Developer
-      location: Bradford
+      location:
       description:
 
 education:
@@ -171,7 +171,7 @@ education:
   items:
     - institution: Oxford University Department of Educational Studies
       link:
-      date: 1994.09 - 1995.04
+      date: September 1994 - April 1995
       major: Studying for a PGCE, as a secondary school science teacher.
       degree:
       description: 
