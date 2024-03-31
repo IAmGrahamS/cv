@@ -42,22 +42,22 @@ experience:
       link:
       tags: 
       date: 2017.11 - 2023.03
-      role: Executive Director, Contractor
+      role: Executive Director. (I joined as a contractor.)
       location: London
       description: |
         Senior Java developer in Derivatives Trade Processing across a wide range of products (IRP, Equities, Commodities, FX, Repo), mostly working on regulatory reporting. 
      
         Projects included:
         
-        Liquidity Trade Processing, 2022. New system for margin users to book trades and perform trade events on repos and collateral pledges. Java and Spring microservices transform and enrich JSON messages over Kafka from a web UI. Events are processed by an enhanced version of our repo stack, before posting trade and event representations to our strategic data repository, a document-oriented datastore with a domain-specific modelling language.
+        Liquidity Trade Processing (2022). New system for margin users to book trades and perform trade events on repos and collateral pledges. Java and Spring microservices transform and enrich JSON messages over Kafka from a web UI. Events are processed by an enhanced version of our repo stack, before posting trade and event representations to our strategic data repository, a document-oriented datastore with a domain-specific modelling language.
         
-        SEC security-based swap transactions regulatory reporting, 2021. New regulations for equity derivatives. Extensively analysed and documented complex legacy code for CFTC reporting. Partnered with Operations and Legal, to design, validate and implement the regulations in a decision rules engine. Modelled and correctly hydrated each class of trades to support this. Migrated flow from older trade factories to our derivatives processing platform.
+        SEC security-based swap transactions regulatory reporting (2021). New regulations for equity derivatives. Extensively analysed and documented complex legacy code for CFTC reporting. Partnered with Operations and Legal, to design, validate and implement the regulations in a decision rules engine. Modelled and correctly hydrated each class of trades to support this. Migrated flow from older trade factories to our derivatives processing platform.
         
-        Regulatory Reporting, 2020. Projects to represent our derivatives fully in strategic platforms to support MAS reporting and future North American re-platforming.
+        Regulatory Reporting (2020). Projects to represent our derivatives fully in strategic platforms to support MAS reporting and future North American re-platforming.
         
-        Brexit, 2019\. Large project to rework all our EMIR reporting so it would report correctly to either ESMA or the FCA from the Brexit date.
+        Brexit (2019). Large project to rework all our EMIR reporting so it would report correctly to either ESMA or the FCA from the Brexit date.
         
-        SRC, 2018\. External commitments were made to regulators to fix a number of aged, highly complex edge cases and back-report any historic changes to reporting.
+        SRC (2018). External commitments were made to regulators to fix a number of aged, highly complex edge cases and back-report any historic changes to reporting.
         
         Improved FINRA ACT reporting for Equity derivatives. Working with Strats to calculate the correct prices for ASRs and related products.
         
