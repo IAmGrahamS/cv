@@ -46,7 +46,7 @@ experience:
       role: Quantitative Developer
       location:
       description: |
-        Built a new strategic, event-driven platform for for all our trades across all asset classes, modelling each typology in our own schema (drawing from FpML and ISDA CDM), suitable for transforming to vendor's schemas. This fed a new affirmation flow for matching via OSTRTRA Markitwire. Complex trades with paper documents fed a new flow via Float Technologies Inc.
+        Built a new strategic, event-driven platform for for all our trades across all asset classes, modelling each typology in our own schema (drawing from FpML and ISDA CDM), suitable for transforming to vendor's schemas. This fed a new affirmation flow for matching via OSTTRA Markitwire. Complex trades with paper documents fed a new flow via Float Technologies Inc.
 
         A project for Systematic Trading to enable high-volume delta one trades to bypass our existing booking system, computing pnl and greeks for Risk.
 
