@@ -1,6 +1,6 @@
 basic:
   name: Graham Stock                     # name
-  title: Senior Java Developer           # job title
+  title: Senior Developer           # job title
   avatar:
     show: true                       # show or hide avatar
     path: /assets/images/profile.jpeg # avatar file path
@@ -16,7 +16,7 @@ profile:
   order: 1
   title: Profile
   description: |
-    + Senior Java developer with 29 years of experience in investment banks and hedge funds, primarily in derivatives.
+    + Senior developer with 29 years of experience in investment banks and hedge funds, primarily in derivatives, often in Java.
     + Brevan Howard, Quantitative Developer. New cross-asset trade platform.
     + Goldman Sachs, Executive Director. Derivatives trade processing and regulatory reporting.
     + HSBC. Strategic greenfield project replacing primary FX and FX Options risk systems.
