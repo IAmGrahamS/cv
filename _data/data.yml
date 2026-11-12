@@ -1,14 +1,14 @@
 basic:
-  name: Graham Stock                     # name
-  title: Senior Developer           # job title
+  name: Graham Stock
+  title: Senior Developer
   avatar:
-    show: true                       # show or hide avatar
-    path: /assets/images/profile.jpeg # avatar file path
+    show: true
+    path: /assets/images/profile.jpeg
 
 contact:
   linkedin: grahamstock
   github:  IAmGrahamS
-  location: London # location
+  location: London
   website: iamgrahams.github.io/cv
 
 profile:
@@ -16,7 +16,7 @@ profile:
   order: 1
   title: Profile
   description: |
-    + Senior developer with 29 years of experience in investment banks and hedge funds, primarily in derivatives, often in Java.
+    + Senior developer with over 30 years of experience in investment banks and hedge funds, primarily in derivatives, often in Java.
     + Brevan Howard, Quantitative Developer. New cross-asset trade platform.
     + Goldman Sachs, Executive Director. Derivatives trade processing and regulatory reporting.
     + HSBC. Strategic greenfield project replacing primary FX and FX Options risk systems.
@@ -46,7 +46,7 @@ experience:
       role: Quantitative Developer
       location:
       description: |
-        Built a new strategic, event-driven platform for for all our trades across all asset classes, modelling each typology in our own schema (drawing from FpML and ISDA CDM). This fed a new affirmation flow for matching via OSTTRA Markitwire. Complex trades with paper documents fed a new flow via Float Technologies Inc.
+        Built a new strategic, event-driven platform for all our trades across all asset classes, modelling each typology in our own schema (drawing from FpML and ISDA CDM). This fed a new affirmation flow for matching via OSTTRA Markitwire. Complex trades with paper documents fed a new flow via Float Technologies Inc.
 
         A project for Systematic Trading to enable high-volume delta one trades to bypass our existing booking system, computing pnl and greeks for Risk.
 
@@ -185,21 +185,9 @@ education:
   title: Education
   description:
   items:
-    - institution: Oxford University Department of Educational Studies
-      link:
-      date: September 1994 - April 1995
-      major: Studying for a PGCE, as a secondary school science teacher.
-      degree:
-      description: 
     - institution: St Hugh's College, Oxford University
       link:
       date: 1991 - 1994
       major: Physics
       degree: BA Hons Oxon
       description:
-    - institution: Adwick School, Doncaster
-      link:
-      date: 1985-1991
-      major: 6 A levels (AAABBB) in Maths, Physics, General Studies, Further Maths, Chemistry, English Language.
-      degree: 
-      description:  
